@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Currency exchange</title>
+</head>
+<body>
+  <h1 class="heading">
+    Currency exchange
+  </h1>
+  <form class="form-box">
+    <div class="form-box__select-wrap">
+      <div class="form-box__input-wrap">
+        <p class="form-box__input-text">
+          Cash in
+        </p>
+        <input class="form-box__input" type="text" placeholder="Enter the amount">
+      </div>
+      <div class="form-box__input-wrap">
+        <p class="form-box__input-text">
+          Currencies
+        </p>
+        <select class="form-box__select">
+          <option class="form-box__option" value="USD $">USD $</option>
+          <option class="form-box__option" value="EURO">EURO</option>
+          <option class="form-box__option" value="RUBL">RUBL</option>
+          <option class="form-box__option" value="Qatar RIYAL">Qatar RIYAL</option>
+          <option class="form-box__option" value="Brazil REAL">Brazil REAL</option>
+          <option class="form-box__option" value="Canada DOLLAR">Canada DOLLAR</option>
+          <option class="form-box__option" value="Australia DOLLAR">Australia DOLLAR</option>
+          <option class="form-box__option" value="CHina YUAN">CHina YUAN</option>
+          <option class="form-box__option" value="TENGE">TENGE</option>
+          <option class="form-box__option" value="Korea WON">Korea WON</option>
+          <option class="form-box__option" value="UAE DIRHAM">UAE DIRHAM</option>
+          <option class="form-box__option" value="Kuwait DINAR">Kuwait DINAR</option>
+          <option class="form-box__option" value="Turkey LIRA">Turkey LIRA</option>
+        </select>
+      </div>
+    </div>
+    <div class="form-box__btn-wrap">
+      <p class="form-box__input-text">
+        Cash output
+      </p>
+      <input class="currency-output-box" type="text">
+      <p class="form-box__input-text">
+        Exchange
+      </p>
+      <button class="form-box__btn" type="submit">Next</button>
+    </div>
+  </form>
+  <div class="usd-sign-box">
+    <span class="usd-sign">USD $</span>
+  </div>
+
+  <script src="./js/main.js"></script>
+</body>
+</html>
